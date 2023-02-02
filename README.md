@@ -52,3 +52,18 @@ Here are the steps to run the project:
 3. Draw Green BBox around detected Barcode
 4. Print the data of the barcode with its associated count
 5. Draw red BBox around items where no barcode is detected
+## Output images:
+![1](https://user-images.githubusercontent.com/60206883/216367855-e3f59b0b-3abc-4da6-a6bc-5bdbc61e4928.jpg)
+![2](https://user-images.githubusercontent.com/60206883/216367946-584b990a-44e3-4f0e-9959-2906765ae619.jpg)
+![3](https://user-images.githubusercontent.com/60206883/216368084-c56340f8-8045-4f48-a1c7-ca047e5a3f48.jpg)
+![4](https://user-images.githubusercontent.com/60206883/216368096-d440f5da-95c7-4238-9710-d831c0b34530.jpg)
+![5](https://user-images.githubusercontent.com/60206883/216368119-3d0d37b2-ea74-4871-b5c4-1f56dd44884d.jpg)
+![6](https://user-images.githubusercontent.com/60206883/216368217-ea2fe0b5-8bbe-48d6-8925-86189b3329cf.jpg)
+![7](https://user-images.githubusercontent.com/60206883/216368249-19395707-753f-4435-ab89-6904e6299a86.jpg)
+![8](https://user-images.githubusercontent.com/60206883/216368268-c9c02b7f-25a7-4651-b6f2-49bee2aa194c.jpg)
+![9](https://user-images.githubusercontent.com/60206883/216368293-45f74aab-3574-43b5-a9a0-d35eed054584.jpg)
+![10](https://user-images.githubusercontent.com/60206883/216368314-751e68a4-ee08-4657-a644-22c1f9cf63cf.jpg)
+![11](https://user-images.githubusercontent.com/60206883/216368328-4043f3bc-a75f-4d28-bb98-2b8887ff4914.jpg)
+![12](https://user-images.githubusercontent.com/60206883/216368350-a10de4bd-9018-46ed-86a5-ee834d030cd5.jpg)
+![13](https://user-images.githubusercontent.com/60206883/216368387-6aea9bdf-1a20-4828-a457-6deda57ca481.jpg)
+
