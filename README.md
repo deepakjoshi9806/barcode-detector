@@ -36,9 +36,10 @@ Here are the steps to run the project:
 11. The Output from the previously provided images is saved at `img/datect/exp42`
 ## Methodology
 - This program uses YoloV5 and Pyzbar at the backend.
-- Each image is tested for presence of vertain objects such as Book, Bottle, Surfboard and Cell Phone with a threshold of 0.01.
-- The reason this hack works is because of the assumption that the background is of uniform colour and the only objects that can be detected. are the target objects. And That's why we set the threshold values as 0.01.
+- Each image is tested for presence of certain objects such as Book, Bottle, Surfboard and Cell Phone with a threshold of 0.01.
+- The reason this hack works is because of the assumption that the background is of uniform colour and the only objects that can be detected are the target objects. And That's why we set the threshold values as 0.01.
 - Ones the objects are detected, a copy of object is passed onto the `decode()` function of pyzbar.
-- If a barcode if found its data is stored in a Hash Map a.k.a Dictonery.
+- If a barcode if found, A rectangle is drawn around the detected target region and  its data is stored in a Hash Map a.k.a Dictonery.
 - The key of the hash map is the data of barcode and the value of hash map is the number of times that object is found in the sample image.
 - If a batch of image is passed as input, then the barcode count is meant for all the objects detected in that batch of image.
+- If the barcode is not detected, a Red rectangle is drawn at the centre of the centre of the detected object, to indicate that the barcode is not found.
