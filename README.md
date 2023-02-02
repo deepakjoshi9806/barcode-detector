@@ -26,10 +26,11 @@ Here are the steps to run the project:
 4. Clone this Repository locally and run:
 5. 		pip install -r requirements.txt
 6. If there are errors referring to Visual Studio, please install it 
-7. There are sample images in [img] Directory. Run: 
+7. There are sample images in `img` Directory. Run: 
 - 		python detect.py --source img  --classes 73 39 37 62 67 --hide-labels --hide-conf
 8. A window with Input image will appear, press ESC to clear it.
 9. This command Iterates through all the images inside the img Directory and labels each object and detected barcode. The data inside the barcode will be serially printed on the CLI.
 10. To detect barcode in a particular image run:
 - 		python detect.py --source img/ImageNAME.jpg  --classes 73 39 37 62 67 --hide-labels --hide-conf
 11. The output will be saved to `runs/detect/LATEST` directory. 
+12. The Output from the previously provided images is saved at `img/datect/exp42`
