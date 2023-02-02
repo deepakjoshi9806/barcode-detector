@@ -30,9 +30,10 @@ Here are the steps to run the project:
 - 		python detect.py --source img  --classes 73 39 37 62 67 --hide-labels --hide-conf
 7. A window with Input image will appear, press ESC to clear it.
 8. This command Iterates through all the images inside the img Directory and labels each object and detected barcode. The data inside the barcode will be serially printed on the CLI.
-9. To detect barcode in a particular image run:
+9. The output will be saved to `runs/detect/LATEST` directory.
+10. To detect barcode in a particular image run:
 - 		python detect.py --source img/ImageNAME.jpg  --classes 73 39 37 62 67 --hide-labels --hide-conf
-10. The output will be saved to runs/detect/LATEST directory.
+
 11. The Output from the previously provided images is saved at `img/datect/exp42`
 ## Methodology
 - This program uses YoloV5 and Pyzbar at the backend.
