@@ -43,4 +43,11 @@ Here are the steps to run the project:
 - The key of the hash map is the data of barcode and the value of hash map is the number of times that object is found in the sample image.
 - If a batch of image is passed as input, then the barcode count is meant for all the objects detected in that batch of image.
 - If the barcode is not detected, a Red rectangle is drawn at the centre of the centre of the detected object, to indicate that the barcode is not found.
-- No seperate model is used to partially detect the barcode. 
+- No seperate model is used to partially detect the barcode, so this is out of picture at the moment. 
+
+## Cases Considered:
+1. Output the imput image.
+2. Draw black BBox around detected Items.
+3. Draw Green BBox around detected Barcode
+4. Print the data of the barcode with its associated count
+5. Draw red BBox around items where no barcode is detected
