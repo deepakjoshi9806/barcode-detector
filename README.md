@@ -53,6 +53,19 @@ Here are the steps to run the project:
 4. Print the data of the barcode with its associated count
 5. Draw red BBox around items where no barcode is detected
 ## Output images:
+Output from terminal on barcode data and its associated count:
+{
+    "b'8901030656026'": 2,
+    "b'8901719112737'": 2,
+    "b'8901030574252'": 1,
+    "b'8901725114916'": 3,
+    "b'8901063160088'": 3,
+    "b'8901030578199'": 4,
+    "b'8901719107771'": 1,
+    "b'8901725118457'": 2,
+    "b'8901719110856'": 1
+}
+
 ![1](https://user-images.githubusercontent.com/60206883/216367855-e3f59b0b-3abc-4da6-a6bc-5bdbc61e4928.jpg)
 ![2](https://user-images.githubusercontent.com/60206883/216367946-584b990a-44e3-4f0e-9959-2906765ae619.jpg)
 ![3](https://user-images.githubusercontent.com/60206883/216368084-c56340f8-8045-4f48-a1c7-ca047e5a3f48.jpg)
