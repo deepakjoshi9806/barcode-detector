@@ -1,5 +1,5 @@
 # Barcode-Detection
-This assignment uses YOLOv5 and pyzbar to best detect the barcodes in a sample picture with multiple target objects.
+This method uses YOLOv5 and pyzbar to best detect the barcodes in a sample picture with multiple target objects.
 
 ## Description
 Here are the steps to run the project:
